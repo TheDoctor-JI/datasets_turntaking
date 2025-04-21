@@ -5,9 +5,9 @@ import json
 import subprocess
 
 import torch
-import torchaudio
-import torchaudio.functional as AF
-from torchaudio.backend.sox_io_backend import info as info_sox
+# import torchaudio
+# import torchaudio.functional as AF
+# from torchaudio.backend.sox_io_backend import info as info_sox
 
 
 def samples_to_frames(s, hop_len):
